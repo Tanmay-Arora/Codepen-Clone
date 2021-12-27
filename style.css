@@ -1,0 +1,59 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(54, 53, 53);
+    border: 2px black;
+    border-radius: 1px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.codearea{
+    width: 100%;
+    height: 48%;
+    background-color: black;
+    justify-content:space-around;
+}
+
+.htmldiv, .cssdiv, .jsdiv {
+    width: 33%;
+    align-self: center;
+    height: 90%;
+    background-color: rgb(54, 53, 53);
+}
+
+.head {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 6px;
+}
+
+.editor{
+    background-color: rgb(26, 24, 24);
+    width: 98%;
+    height: 88%;
+    border: solid white;
+    border-width: 2px;
+    color: white;
+}
+
+.output{
+    width: 100%;
+    min-height: 44.6%;
+}
